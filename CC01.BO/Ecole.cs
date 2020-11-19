@@ -8,8 +8,8 @@ namespace CC01.BO
 {
     public class Ecole
     {
-        public string Nom { get; set; }
-        public string SiteWeb { get; set; }
+        public string NomEcole { get; set; }
+        public string SiteEcole { get; set; }
         public int Telephone { get; set; }
 
         public Ecole()
@@ -17,10 +17,10 @@ namespace CC01.BO
 
         }
 
-        public Ecole(string nom, string site, int telephone)
+        public Ecole(string nomecole, string siteecole, int telephone)
         {
-            Nom = nom;
-            SiteWeb = site;
+            NomEcole = nomecole;
+            SiteEcole = siteecole;
             Telephone = telephone;
         }
     }

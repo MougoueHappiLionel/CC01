@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace CC01.Windforms
 {
-    public partial class Form1 : Form
+    public partial class FrmEcole : Form
     {
-        public Form1()
+        public FrmEcole()
         {
             InitializeComponent();
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void FrmEcole_Load(object sender, EventArgs e)
         {
-            pictureBox1.ImageLocation = null;
+
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            pictureBox2.ImageLocation = null;
+
         }
     }
 }
