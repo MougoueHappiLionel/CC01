@@ -36,9 +36,6 @@
             this.lblcontact = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.lblidentifiant = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.lbllieu = new System.Windows.Forms.Label();
-            this.lbldate = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblprenom = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -50,13 +47,12 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
             this.txbrecherche = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -89,16 +85,16 @@
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(424, 299);
+            this.textBox7.Location = new System.Drawing.Point(405, 274);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 26);
+            this.textBox7.Size = new System.Drawing.Size(175, 26);
             this.textBox7.TabIndex = 29;
             // 
             // lblemail
             // 
             this.lblemail.AutoSize = true;
             this.lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblemail.Location = new System.Drawing.Point(342, 305);
+            this.lblemail.Location = new System.Drawing.Point(323, 280);
             this.lblemail.Name = "lblemail";
             this.lblemail.Size = new System.Drawing.Size(56, 20);
             this.lblemail.TabIndex = 28;
@@ -107,16 +103,16 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(424, 252);
+            this.textBox6.Location = new System.Drawing.Point(405, 226);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
+            this.textBox6.Size = new System.Drawing.Size(175, 26);
             this.textBox6.TabIndex = 27;
             // 
             // lblcontact
             // 
             this.lblcontact.AutoSize = true;
             this.lblcontact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcontact.Location = new System.Drawing.Point(342, 255);
+            this.lblcontact.Location = new System.Drawing.Point(323, 229);
             this.lblcontact.Name = "lblcontact";
             this.lblcontact.Size = new System.Drawing.Size(73, 20);
             this.lblcontact.TabIndex = 26;
@@ -125,48 +121,20 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(424, 209);
+            this.textBox5.Location = new System.Drawing.Point(405, 177);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 26);
+            this.textBox5.Size = new System.Drawing.Size(175, 26);
             this.textBox5.TabIndex = 25;
             // 
             // lblidentifiant
             // 
             this.lblidentifiant.AutoSize = true;
             this.lblidentifiant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblidentifiant.Location = new System.Drawing.Point(330, 212);
+            this.lblidentifiant.Location = new System.Drawing.Point(311, 183);
             this.lblidentifiant.Name = "lblidentifiant";
             this.lblidentifiant.Size = new System.Drawing.Size(88, 20);
             this.lblidentifiant.TabIndex = 24;
             this.lblidentifiant.Text = "Identifiant :";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(424, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 26);
-            this.textBox4.TabIndex = 23;
-            // 
-            // lbllieu
-            // 
-            this.lbllieu.AutoSize = true;
-            this.lbllieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllieu.Location = new System.Drawing.Point(371, 172);
-            this.lbllieu.Name = "lbllieu";
-            this.lbllieu.Size = new System.Drawing.Size(47, 20);
-            this.lbllieu.TabIndex = 22;
-            this.lbllieu.Text = "Lieu :";
-            // 
-            // lbldate
-            // 
-            this.lbldate.AutoSize = true;
-            this.lbldate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldate.Location = new System.Drawing.Point(245, 124);
-            this.lbldate.Name = "lbldate";
-            this.lbldate.Size = new System.Drawing.Size(130, 20);
-            this.lbldate.TabIndex = 20;
-            this.lbldate.Text = "Date Naissance :";
             // 
             // textBox2
             // 
@@ -287,18 +255,6 @@
             this.dataGridView1.TabIndex = 39;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(611, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 20);
-            this.label2.TabIndex = 40;
-            this.label2.Text = "Recherche";
-            // 
             // Column1
             // 
             this.Column1.DataPropertyName = "Nom";
@@ -334,12 +290,17 @@
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
-            // dateTimePicker1
+            // label2
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(381, 124);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 41;
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(611, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 20);
+            this.label2.TabIndex = 40;
+            this.label2.Text = "Recherche";
             // 
             // txbrecherche
             // 
@@ -356,7 +317,6 @@
             this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(1203, 450);
             this.Controls.Add(this.txbrecherche);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.linkLabel2);
@@ -373,9 +333,6 @@
             this.Controls.Add(this.lblcontact);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.lblidentifiant);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.lbllieu);
-            this.Controls.Add(this.lbldate);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblprenom);
             this.Controls.Add(this.textBox1);
@@ -401,9 +358,6 @@
         private System.Windows.Forms.Label lblcontact;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label lblidentifiant;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label lbllieu;
-        private System.Windows.Forms.Label lbldate;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lblprenom;
         private System.Windows.Forms.TextBox textBox1;
@@ -421,7 +375,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox txbrecherche;
     }
 }

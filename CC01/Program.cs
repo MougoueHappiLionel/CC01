@@ -10,6 +10,40 @@ namespace CC01
     {
         static void Main(string[] args)
         {
+            string choice = "y";
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("----------------------------Ajoutez des étudiants----------------------------");
+                Console.Write("Entrer le nom  \t:");
+                string nom = Console.ReadLine();
+                Console.Write("Entrer le prenom \t:");
+                string prenom = Console.ReadLine();
+                Console.Write("Entrer l'identifiant \t:");
+                string identifiant = Console.ReadLine();
+                Console.Write("Entrer votre contact \t:");
+                int contact = int.Parse(Console.ReadLine());
+                Console.Write("Entrer l'email \t:");
+                string email = Console.ReadLine();
+
+                Etudiant etudiant = new Etudiant(nom, prenom, identifiant, contact, email);
+                EtudiantBLO etudiantBLO = new EtudiantBLO(ConfigurationManager.AppSettings["DbFolder"]);
+                etudiantBLO.CreateProduct(etudiant);
+
+                IEnumerable<Etudiant> etudiants = etudiantBLO.GetAllProducts();
+                foreach (Etudiant p in etudiants)
+                {
+                    Console.WriteLine($"{p.Nom}\t{p.Prenom}\t{p.Email}\t{p.Contact}");
+                }
+
+                Console.Write("Create another product ?[y/n]:");
+                choice = Console.ReadLine();
+            }
+            while (choice.ToLower() != "n");
+            Console.WriteLine("Program end !");
+
+            Console.ReadKey();
         }
+    }
     }
 }
