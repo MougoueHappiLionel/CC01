@@ -1,4 +1,7 @@
 ﻿using System;
+using CC01.BO;
+using CC01.BLL;
+using CC01.DAL;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,6 +34,12 @@ namespace CC01.Windforms
         {
 
         }
+        private void loadData(IEnumerable<Etudiant> etudiants)
+        {
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = etudiants;
+            lbllignes.Text = $"{dataGridView1.RowCount} lignes";
+        }
 
         private void FrmEtudiant_Load(object sender, EventArgs e)
         {
@@ -40,6 +49,11 @@ namespace CC01.Windforms
         private void btnAnnuler_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnEnregistrer_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

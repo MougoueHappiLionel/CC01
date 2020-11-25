@@ -26,7 +26,7 @@ namespace CC01.BLL
         }
 
 
-        public IEnumerable<Etudiant> GetAllProducts()
+        public IEnumerable<Etudiant> GetAllEtudiant()
         {
             return etudiantRepo.Find();
         }

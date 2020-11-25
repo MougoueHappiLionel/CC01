@@ -81,6 +81,7 @@
             this.btnEnregistrer.TabIndex = 30;
             this.btnEnregistrer.Text = "Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
+            this.btnEnregistrer.Click += new System.EventHandler(this.btnEnregistrer_Click);
             // 
             // textBox7
             // 
