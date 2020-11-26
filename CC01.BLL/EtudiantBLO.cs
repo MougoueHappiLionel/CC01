@@ -11,6 +11,11 @@ namespace CC01.BLL
     public class EtudiantBLO
     {
         EtudiantDAO etudiantRepo;
+
+        public EtudiantBLO()
+        {
+        }
+
         public EtudiantBLO(string dbFolder)
         {
             etudiantRepo = new EtudiantDAO(dbFolder);

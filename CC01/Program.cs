@@ -1,7 +1,11 @@
 ﻿using System;
+using CC01.BO;
+using CC01.DAL;
+using CC01.BLL;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Configuration;
 using System.Threading.Tasks;
 
 namespace CC01
@@ -30,7 +34,7 @@ namespace CC01
                 EtudiantBLO etudiantBLO = new EtudiantBLO(ConfigurationManager.AppSettings["DbFolder"]);
                 etudiantBLO.CreateProduct(etudiant);
 
-                IEnumerable<Etudiant> etudiants = etudiantBLO.GetAllProducts();
+                IEnumerable<Etudiant> etudiants = etudiantBLO.GetAllEtudiant();
                 foreach (Etudiant p in etudiants)
                 {
                     Console.WriteLine($"{p.Nom}\t{p.Prenom}\t{p.Email}\t{p.Contact}");
@@ -45,5 +49,5 @@ namespace CC01
             Console.ReadKey();
         }
     }
-    }
+    
 }

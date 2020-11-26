@@ -13,13 +13,14 @@ namespace CC01.DAL
     public class EtudiantDAO
     {
         private static List<Etudiant> etudiants;
-        private const string FILE_NAME = "data/etudiant.json";
+        private const string FILE_NAME =@"etudiant.json";
         private readonly string dbFolder;
         private FileInfo file;
 
         public EtudiantDAO(string dbFolder)
         {
-            FileInfo file = new FileInfo(FILE_NAME);
+            this.dbFolder = dbFolder;
+            FileInfo file = new FileInfo(Path.Combine(this.dbFolder, FILE_NAME));
             if (!file.Directory.Exists)
             {
                 file.Directory.Create();
@@ -45,9 +46,6 @@ namespace CC01.DAL
 
         public void Add(Etudiant etudiant)
         {
-            var index = etudiants.IndexOf(etudiant);
-            if (index >= 0)
-                throw new DuplicateNameException("Cet etudiant éxiste déjà");
             etudiants.Add(etudiant);
             Save();
         }
@@ -69,11 +67,6 @@ namespace CC01.DAL
         public IEnumerable<Etudiant> Find()
         {
             return new List<Etudiant>(etudiants);
-        }
-
-        public IEnumerable<Etudiant> Find(Func<Etudiant, bool> predicate)
-        {
-            return new List<Etudiant>(etudiants.Where(predicate).ToArray());
         }
     }
 }

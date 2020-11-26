@@ -30,15 +30,15 @@
         {
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnEnregistrer = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
             this.lblemail = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtcontact = new System.Windows.Forms.TextBox();
             this.lblcontact = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
             this.lblidentifiant = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtprenom = new System.Windows.Forms.TextBox();
             this.lblprenom = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtnom = new System.Windows.Forms.TextBox();
             this.lblnom = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -83,13 +83,13 @@
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             this.btnEnregistrer.Click += new System.EventHandler(this.btnEnregistrer_Click);
             // 
-            // textBox7
+            // txtemail
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(405, 274);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(175, 26);
-            this.textBox7.TabIndex = 29;
+            this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtemail.Location = new System.Drawing.Point(405, 274);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(175, 26);
+            this.txtemail.TabIndex = 29;
             // 
             // lblemail
             // 
@@ -101,13 +101,13 @@
             this.lblemail.TabIndex = 28;
             this.lblemail.Text = "Email :";
             // 
-            // textBox6
+            // txtcontact
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(405, 226);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(175, 26);
-            this.textBox6.TabIndex = 27;
+            this.txtcontact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcontact.Location = new System.Drawing.Point(405, 226);
+            this.txtcontact.Name = "txtcontact";
+            this.txtcontact.Size = new System.Drawing.Size(175, 26);
+            this.txtcontact.TabIndex = 27;
             // 
             // lblcontact
             // 
@@ -119,13 +119,13 @@
             this.lblcontact.TabIndex = 26;
             this.lblcontact.Text = "Contact :";
             // 
-            // textBox5
+            // txtid
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(405, 177);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(175, 26);
-            this.textBox5.TabIndex = 25;
+            this.txtid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtid.Location = new System.Drawing.Point(405, 177);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(175, 26);
+            this.txtid.TabIndex = 25;
             // 
             // lblidentifiant
             // 
@@ -137,13 +137,13 @@
             this.lblidentifiant.TabIndex = 24;
             this.lblidentifiant.Text = "Identifiant :";
             // 
-            // textBox2
+            // txtprenom
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(85, 118);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 19;
+            this.txtprenom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprenom.Location = new System.Drawing.Point(85, 118);
+            this.txtprenom.Name = "txtprenom";
+            this.txtprenom.Size = new System.Drawing.Size(100, 26);
+            this.txtprenom.TabIndex = 19;
             // 
             // lblprenom
             // 
@@ -155,13 +155,13 @@
             this.lblprenom.TabIndex = 18;
             this.lblprenom.Text = "Prenom";
             // 
-            // textBox1
+            // txtnom
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(63, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 17;
+            this.txtnom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnom.Location = new System.Drawing.Point(63, 69);
+            this.txtnom.Name = "txtnom";
+            this.txtnom.Size = new System.Drawing.Size(100, 26);
+            this.txtnom.TabIndex = 17;
             // 
             // lblnom
             // 
@@ -328,15 +328,15 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.btnEnregistrer);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtemail);
             this.Controls.Add(this.lblemail);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtcontact);
             this.Controls.Add(this.lblcontact);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtid);
             this.Controls.Add(this.lblidentifiant);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtprenom);
             this.Controls.Add(this.lblprenom);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtnom);
             this.Controls.Add(this.lblnom);
             this.Name = "FrmEtudiant";
             this.Text = "Form1";
@@ -353,15 +353,15 @@
 
         private System.Windows.Forms.Button btnAnnuler;
         private System.Windows.Forms.Button btnEnregistrer;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label lblemail;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtcontact;
         private System.Windows.Forms.Label lblcontact;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.Label lblidentifiant;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtprenom;
         private System.Windows.Forms.Label lblprenom;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtnom;
         private System.Windows.Forms.Label lblnom;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
